@@ -1,2 +1,2 @@
 # workshop-javascript
-curso basico de JavaScript
+curso basico de JavaScript Dev
