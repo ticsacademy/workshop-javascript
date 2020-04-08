@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>:: 🧮 Calculadora ::</title>
+  </head>
+
+  <body>
+    <a href="./" class="btn btn-primary">⏪ Promedio</a>
+    <!-- inicia el formulario -->
+    <div style="width: 40%;margin: 50px auto;">
+      <div class="form-group">
+        <label for="primero">Primera Valor :</label>
+        <input
+          type="number"
+          placeholder="0"
+          class="form-control"
+          id="primerValor"
+        />
+      </div>
+      <div class="form-group">
+        <label for="segundo">Segunda Valor :</label>
+        <input
+          type="number"
+          placeholder="0"
+          class="form-control"
+          id="segundo"
+        />
+      </div>
+      <button id="suma"  class="btn btn-operation btn-success">
+        ➕ Suma
+      </button>
+      <button id="multiplicacion" value="*"  class="btn btn-operation btn-success">
+        ✖️ Multiplación
+      </button>
+      <button id="resta" value="-"  class="btn btn-operation btn-success">
+        ➖ Resta
+      </button>
+      <button id="division" value="/"  class="btn btn-operation btn-success">
+        ➗ Divicion
+      </button>
+    </div>
+
+    <div
+      id="alert"
+      style="width: 40%;margin: 50px auto;"
+      class="alert alert-primary"
+    >
+      Resultado = <label id="resultado">0</label>
+    </div>
+    <script type="text/javascript" src="./js/calculadora.js"></script>
+  </body>
+</html>
